@@ -21,7 +21,7 @@ class LineNotify():
             LineNotifyのアクセストークン
         """
         self.url = "https://notify-api.line.me/api/notify"
-        self.access_token = 'F78NKUuw6BhAytCPpjw2QgXXMmxV58iOxBA0HtQfYzh'
+        self.access_token = ''
 
     def post_linenotify(self, message):
         """
