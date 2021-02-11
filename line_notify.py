@@ -11,7 +11,7 @@ class LineNotify():
     LINE通知を行うクラス
     """
 
-    def __init__(self):
+    def __init__(self, access_token: str):
         """
         Parameters
         ----------
@@ -21,7 +21,7 @@ class LineNotify():
             LineNotifyのアクセストークン
         """
         self.url = "https://notify-api.line.me/api/notify"
-        self.access_token = ''
+        self.access_token = access_token
 
     def post_linenotify(self, message):
         """
